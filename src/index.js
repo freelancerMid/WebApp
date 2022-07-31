@@ -1,4 +1,6 @@
 // Active menu css style
+import "./style.scss"
+
 document.addEventListener("click", (e) => {
   let btn = document.getElementsByClassName("menu");
 
