@@ -1,5 +1,5 @@
 // Active menu css style
-import "./style.scss";
+import "./style.scss"
 
 document.addEventListener("click", (e) => {
   let btn = document.getElementsByClassName("menu");
@@ -19,7 +19,6 @@ document.addEventListener("click", (e) => {
       e.target.className += " active";
     }
   }
-  global.testing();
 });
 
 // ADDING POPUP FOR STATUS CHANGING.................................
